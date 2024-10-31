@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskWebApp.API", "TaskWebApp.API\TaskWebApp.API.csproj", "{37EEE243-B320-4E9A-81E5-2F32A5BDC7FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskConsoleApp", "TaskConsoleApp\TaskConsoleApp.csproj", "{BB9A58FB-CAA5-48FA-943F-DDC10E724D7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{37EEE243-B320-4E9A-81E5-2F32A5BDC7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37EEE243-B320-4E9A-81E5-2F32A5BDC7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37EEE243-B320-4E9A-81E5-2F32A5BDC7FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9A58FB-CAA5-48FA-943F-DDC10E724D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9A58FB-CAA5-48FA-943F-DDC10E724D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9A58FB-CAA5-48FA-943F-DDC10E724D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9A58FB-CAA5-48FA-943F-DDC10E724D7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
