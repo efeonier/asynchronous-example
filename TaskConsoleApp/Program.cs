@@ -7,6 +7,7 @@ var myTask = new HttpClient().GetStringAsync("https://www.google.com/").Continue
 {
     Console.WriteLine(data.Result.Length);
     Console.WriteLine("Arada yapilacak isler");
+    
 });
-
 await myTask;
+
