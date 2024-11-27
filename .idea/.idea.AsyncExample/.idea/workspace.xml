@@ -9,12 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c899a8f-ae76-4f70-b7bc-51b8b3ec0508" name="Changes" comment="WhenAll example">
-      <change afterPath="$PROJECT_DIR$/TaskConsoleApp/WhenAnyExample.cs" afterDir="false" />
+    <list default="true" id="7c899a8f-ae76-4f70-b7bc-51b8b3ec0508" name="Changes" comment="WhenAyn Example">
+      <change afterPath="$PROJECT_DIR$/TaskConsoleApp/WaitAllExample.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AsyncExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AsyncExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskConsoleApp/ContinueWithExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskConsoleApp/ContinueWithExample.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaskConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskConsoleApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TaskConsoleApp/WhenAllExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskConsoleApp/WhenAllExample.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.TaskConsoleApp.executor": "Debug",
+    ".NET Project.TaskConsoleApp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -166,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732703722943</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="WhenAyn Example">
+      <option name="closed" value="true" />
+      <created>1732704491776</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732704491776</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +197,8 @@
     <MESSAGE value="Task sınıfı giriş" />
     <MESSAGE value="ContinueWith" />
     <MESSAGE value="WhenAll example" />
-    <option name="LAST_COMMIT_MESSAGE" value="WhenAll example" />
+    <MESSAGE value="WhenAyn Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="WhenAyn Example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -214,10 +221,10 @@
           <line>11</line>
           <properties documentPath="$PROJECT_DIR$/TaskConsoleApp/WhenAnyExample.cs" containingFunctionPresentation="Method 'Run'">
             <startOffsets>
-              <option value="532" />
+              <option value="539" />
             </startOffsets>
             <endOffsets>
-              <option value="609" />
+              <option value="602" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="4" />
