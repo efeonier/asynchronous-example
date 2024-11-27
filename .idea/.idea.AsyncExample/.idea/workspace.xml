@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c899a8f-ae76-4f70-b7bc-51b8b3ec0508" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaskConsoleApp/ContinueWithExample.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaskConsoleApp/WhenAllExample.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AsyncExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AsyncExample/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaskConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskConsoleApp/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DpaMonitoringSettings">
-    <option name="autoShow" value="false" />
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,12 +32,15 @@
     &quot;assignee&quot;: &quot;efeonier&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/efeonier/asynchronous-example.git",
-    "accountId": "6a91fd0d-fe11-4557-b403-c62855073bc5"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/efeonier/asynchronous-example.git&quot;,
+    &quot;accountId&quot;: &quot;6a91fd0d-fe11-4557-b403-c62855073bc5&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/35f3a54f5acb408a3e219b2de039f1a39557b7e4515f11238cba07b60c0ce/Task.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -53,7 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.TaskConsoleApp.executor": "Debug",
+    ".NET Project.TaskConsoleApp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -179,5 +182,24 @@
     <MESSAGE value="Task sınıfı giriş" />
     <MESSAGE value="ContinueWith" />
     <option name="LAST_COMMIT_MESSAGE" value="ContinueWith" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TaskConsoleApp/WhenAllExample.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/TaskConsoleApp/WhenAllExample.cs" containingFunctionPresentation="Method 'GetContentAsync'">
+            <startOffsets>
+              <option value="1146" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1155" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
