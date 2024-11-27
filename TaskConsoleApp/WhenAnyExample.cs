@@ -1,17 +1,15 @@
 namespace TaskConsoleApp;
 
-public abstract class WhenAllExample {
+public static class WhenAnyExample {
     public async static Task Run()
     {
         List<string> urls = ["https://www.google.com/", "https://www.microsoft.com/", "https://www.amazon.com/", "https://www.apple.com/", "https://www.haberturk.com/"];
         List<Task<Content>> tasks = [];
-        Console.WriteLine("WhenAllExample thread:" + Environment.CurrentManagedThreadId);
-        tasks.AddRange(urls.Select(GetContentAsync));
-        var result = Task.WhenAll(tasks);
-        var data = await result;
-        foreach (var item in data){
-            Console.WriteLine(item.Site + " " + item.Length);
-        }
+        Console.WriteLine("Main WhenAny thread:" + Environment.CurrentManagedThreadId);
+        urls.ToList().ForEach(x => tasks.Add(GetContentAsync(x)));
+
+        var firstResult = await Task.WhenAny(tasks).Result;
+        Console.WriteLine(firstResult.Site + " " + firstResult.Length);
     }
 
     private sealed class Content {
@@ -29,6 +27,7 @@ public abstract class WhenAllExample {
         c.Site = url;
         c.Length = data.Length;
         Console.WriteLine("GetContentAsync thread:" + Environment.CurrentManagedThreadId);
+
         return c;
     }
 }

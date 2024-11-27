@@ -9,11 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c899a8f-ae76-4f70-b7bc-51b8b3ec0508" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TaskConsoleApp/ContinueWithExample.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TaskConsoleApp/WhenAllExample.cs" afterDir="false" />
+    <list default="true" id="7c899a8f-ae76-4f70-b7bc-51b8b3ec0508" name="Changes" comment="WhenAll example">
+      <change afterPath="$PROJECT_DIR$/TaskConsoleApp/WhenAnyExample.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AsyncExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AsyncExample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskConsoleApp/ContinueWithExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskConsoleApp/ContinueWithExample.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaskConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskConsoleApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskConsoleApp/WhenAllExample.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskConsoleApp/WhenAllExample.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.TaskConsoleApp.executor": "Run",
+    ".NET Project.TaskConsoleApp.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -157,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730354456558</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="WhenAll example">
+      <option name="closed" value="true" />
+      <created>1732703722943</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732703722943</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,23 +190,37 @@
     <MESSAGE value="push empty solution" />
     <MESSAGE value="Task sınıfı giriş" />
     <MESSAGE value="ContinueWith" />
-    <option name="LAST_COMMIT_MESSAGE" value="ContinueWith" />
+    <MESSAGE value="WhenAll example" />
+    <option name="LAST_COMMIT_MESSAGE" value="WhenAll example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/TaskConsoleApp/WhenAllExample.cs</url>
-          <line>32</line>
+          <line>31</line>
           <properties documentPath="$PROJECT_DIR$/TaskConsoleApp/WhenAllExample.cs" containingFunctionPresentation="Method 'GetContentAsync'">
             <startOffsets>
-              <option value="1146" />
+              <option value="1155" />
             </startOffsets>
             <endOffsets>
-              <option value="1155" />
+              <option value="1164" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/TaskConsoleApp/WhenAnyExample.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/TaskConsoleApp/WhenAnyExample.cs" containingFunctionPresentation="Method 'Run'">
+            <startOffsets>
+              <option value="532" />
+            </startOffsets>
+            <endOffsets>
+              <option value="609" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

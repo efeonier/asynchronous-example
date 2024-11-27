@@ -1,4 +1,5 @@
 ﻿using TaskConsoleApp;
 
-//ContinueWithExample.Run();
-WhenAllExample.Run();
+//await ContinueWithExample.Run();
+//await WhenAllExample.Run();
+await WhenAnyExample.Run();
