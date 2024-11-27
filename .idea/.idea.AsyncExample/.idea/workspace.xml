@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c899a8f-ae76-4f70-b7bc-51b8b3ec0508" name="Changes" comment="WhenAyn Example">
-      <change afterPath="$PROJECT_DIR$/TaskConsoleApp/WaitAllExample.cs" afterDir="false" />
+    <list default="true" id="7c899a8f-ae76-4f70-b7bc-51b8b3ec0508" name="Changes" comment="WaitAll Example">
+      <change afterPath="$PROJECT_DIR$/TaskConsoleApp/WaitAnyExample.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AsyncExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AsyncExample/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TaskConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TaskConsoleApp/Program.cs" afterDir="false" />
     </list>
@@ -39,6 +39,7 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/35f3a54f5acb408a3e219b2de039f1a39557b7e4515f11238cba07b60c0ce/Task.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/efeonier/Projects/Egitim/asynchronous-example/TaskConsoleApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -172,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732704491776</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="WaitAll Example">
+      <option name="closed" value="true" />
+      <created>1732706515091</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732706515091</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +207,8 @@
     <MESSAGE value="ContinueWith" />
     <MESSAGE value="WhenAll example" />
     <MESSAGE value="WhenAyn Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="WhenAyn Example" />
+    <MESSAGE value="WaitAll Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="WaitAll Example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
