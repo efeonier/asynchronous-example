@@ -3,4 +3,5 @@
 //await ContinueWithExample.Run();
 //await WhenAllExample.Run();
 //await WhenAnyExample.Run();
-await WaitAllExample.Run();
+//await WaitAllExample.Run();
+await WaitAnyExample.Run();
