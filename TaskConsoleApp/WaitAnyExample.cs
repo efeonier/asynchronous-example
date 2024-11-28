@@ -11,7 +11,7 @@ public class WaitAnyExample {
         });
         Console.WriteLine("WaitAny Methodundan önce");
         var firstResult = Task.WaitAny(tasks.ToArray());
-        Console.WriteLine("WaitAny Methodundan sonm..ra");
+        Console.WriteLine("WaitAny Methodundan sonra");
         var data = await tasks[firstResult];
         Console.WriteLine(data.Site + " " + data.Length);
       
