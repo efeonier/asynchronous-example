@@ -1,16 +1,15 @@
 namespace TaskConsoleApp;
 
 public class WaitAnyExample {
-    public async static Task Run()
+    public async static Task Run(List<string> urls)
     {
-        List<string> urls = ["https://www.google.com/", "https://www.microsoft.com/", "https://www.amazon.com/", "https://www.apple.com/", "https://www.haberturk.com/"];
         List<Task<Content>> tasks = [];
         Console.WriteLine("WaitAnyExample thread:" + Environment.CurrentManagedThreadId);
         urls.ToList().ForEach(x => {
             tasks.Add(GetContentAsync(x));
         });
         Console.WriteLine("WaitAny Methodundan önce");
-        var firstResult = Task.WaitAny(tasks.ToArray());
+        var firstResult = Task.WaitAny(tasks.ToArray<Task>());
         Console.WriteLine("WaitAny Methodundan sonra");
         var data = await tasks[firstResult];
         Console.WriteLine(data.Site + " " + data.Length);

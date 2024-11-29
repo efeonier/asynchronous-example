@@ -1,9 +1,8 @@
 namespace TaskConsoleApp;
 
 public abstract class WhenAllExample {
-    public async static Task Run()
+    public async static Task Run(List<string> urls)
     {
-        List<string> urls = ["https://www.google.com/", "https://www.microsoft.com/", "https://www.amazon.com/", "https://www.apple.com/", "https://www.haberturk.com/"];
         List<Task<Content>> tasks = [];
         Console.WriteLine("WhenAllExample thread:" + Environment.CurrentManagedThreadId);
         tasks.AddRange(urls.Select(GetContentAsync));
